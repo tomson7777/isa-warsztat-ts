@@ -1,0 +1,2 @@
+API_KEY = fe8c20be9e7c2bcae9cec096f3054403
+API_URL = https://gateway.marvel.com:443/v1/public/characters?apikey=API_KEY;
