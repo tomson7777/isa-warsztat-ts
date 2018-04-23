@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <style>
+        .card {
+            height: 100% !important;
+        }
+
+        .strongest {
+            background: #ff3100;
+            color: white;
+        }
+
+        .dead {
+            filter: grayscale(100%);
+        }
+
+        #heroes [class^="col-"] {
+            margin-bottom: 20px;
+        }
+
+        .no-description {
+            font-style: italic;
+            text-transform: uppercase;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h1 class="display-4">TypeScript with Marvel Heroes and InfoShareAcademy!</h1>
+        <hr class="my-4">
+        <p class="lead">TypeScript is cool.</p>
+    </div>
+    <div class="row" id="heroes"></div>
+</div>
+</body>
+</html>
