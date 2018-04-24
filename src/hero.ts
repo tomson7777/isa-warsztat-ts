@@ -14,7 +14,7 @@ export interface Hero {
 }
 
 export interface AttackingHero {
-  attack(attacksList: any, name: string): number
+  attack<O, K extends keyof O>(attacksList: O, name: K): number
 }
 
 export abstract class BaseHero implements Hero {
@@ -45,8 +45,8 @@ export class StrongHero extends BaseHero implements AttackingHero {
     super(hero);
   }
 
-  attack(attacksList: any, name: string): number {
-    return attacksList[name] * this.strength * this.speed * 3;
+  attack<O, K extends keyof O>(attacksList: O, name: K): number {
+    return +attacksList[name] * this.strength * this.speed * 3;
   }
 }
 
