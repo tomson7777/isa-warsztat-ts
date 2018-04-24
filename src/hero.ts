@@ -41,10 +41,6 @@ export abstract class BaseHero implements Hero {
 }
 
 export class StrongHero extends BaseHero implements AttackingHero {
-  constructor(hero: HeroResult) {
-    super(hero);
-  }
-
   @Unenumerable
   attack<O, K extends keyof O>(attacksList: O, name: K): number {
     return +attacksList[name] * this.strength * this.speed * 3;
