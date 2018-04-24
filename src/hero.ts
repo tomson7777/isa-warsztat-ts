@@ -45,6 +45,7 @@ export class StrongHero extends BaseHero implements AttackingHero {
     super(hero);
   }
 
+  @Unenumerable
   attack<O, K extends keyof O>(attacksList: O, name: K): number {
     return +attacksList[name] * this.strength * this.speed * 3;
   }
