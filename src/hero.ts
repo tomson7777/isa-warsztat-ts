@@ -21,10 +21,6 @@ export abstract class BaseHero {
 }
 
 export class StrongHero extends BaseHero {
-	constructor(hero) {
-		super(hero);
-	}
-
 	attack(attacksList, name) {
 		return +attacksList[name] * this.strength * this.speed * 3;
 	}
