@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d23deebf-7952-4ea0-a4c9-d62884364310" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/hero.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hero.ts" afterDir="false" />
-    </list>
+    <list default="true" id="d23deebf-7952-4ea0-a4c9-d62884364310" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -25,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="heroes-response.model.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="heroes-response.model.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/heroes-response.model.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -46,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dom.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dom.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dom.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="25">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -142,10 +140,10 @@
         <option value="$PROJECT_DIR$/materialy/card-template.html" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/heroes-response.model.ts" />
-        <option value="$PROJECT_DIR$/src/dom.ts" />
         <option value="$PROJECT_DIR$/src/index.ts" />
         <option value="$PROJECT_DIR$/src/hero.ts" />
         <option value="$PROJECT_DIR$/src/heroes.service.ts" />
+        <option value="$PROJECT_DIR$/src/dom.ts" />
       </list>
     </option>
   </component>
@@ -243,12 +241,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524516093542</updated>
       <workItem from="1524516095264" duration="3695000" />
-      <workItem from="1524519998317" duration="7360000" />
+      <workItem from="1524519998317" duration="7764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11055000" />
+    <option name="totallyTimeSpent" value="11459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,7 +268,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32978722" />
       <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32978722" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31319556" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31319556" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -488,17 +486,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dom.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/heroes-response.model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dom.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

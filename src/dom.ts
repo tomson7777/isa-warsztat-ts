@@ -1,4 +1,4 @@
-import {Hero, Status} from './hero';
+import { Hero, Status } from './hero';
 
 export class DOM {
   static renderHeroes(heroes: Hero[]) {
