@@ -1,23 +1,30 @@
 import { HeroResult } from './heroes-response.model';
 
+export enum Status {
+  ALIVE, // 0
+  DEAD // 1
+}
+
 export interface Hero {
   name: string;
   description: string;
   imageUrl: string;
   id: number;
+  status: Status
 }
 
 export interface AttackingHero {
   attack(attacksList: any, name: string): number
 }
 
-export abstract class BaseHero {
+export abstract class BaseHero implements Hero {
   private maxStrength = 100;
   private maxSpeed = 60;
-  protected _id: number;
   public name: string;
   public description: string;
   public imageUrl: string;
+  status = Math.random() > 0.5 ? Status.ALIVE : Status.DEAD;
+  protected _id: number;
   protected strength = Math.floor(Math.random() * this.maxStrength);
   protected speed = Math.floor(Math.random() * this.maxSpeed);
 
@@ -39,7 +46,7 @@ export class StrongHero extends BaseHero implements AttackingHero {
   }
 
   attack(attacksList: any, name: string): number {
-    return +attacksList[name] * this.strength * this.speed * 3;
+    return attacksList[name] * this.strength * this.speed * 3;
   }
 }
 
