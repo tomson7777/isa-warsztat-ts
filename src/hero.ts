@@ -1,5 +1,5 @@
 import { HeroResult } from './heroes-response.model';
-
+import { Unenumerable } from './unenumerable.decorator';
 export enum Status {
   ALIVE, // 0
   DEAD // 1

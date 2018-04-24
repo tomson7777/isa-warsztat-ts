@@ -11,9 +11,9 @@ export interface Hero {
     status: Status;
 }
 export interface AttackingHero {
-    attack(attacksList: any, name: string): number;
+    attack<O, K extends keyof O>(attacksList: O, name: K): number;
 }
-export declare abstract class BaseHero {
+export declare abstract class BaseHero implements Hero {
     private maxStrength;
     private maxSpeed;
     name: string;
@@ -28,5 +28,5 @@ export declare abstract class BaseHero {
 }
 export declare class StrongHero extends BaseHero implements AttackingHero {
     constructor(hero: HeroResult);
-    attack(attacksList: any, name: string): number;
+    attack<O, K extends keyof O>(attacksList: O, name: K): number;
 }
