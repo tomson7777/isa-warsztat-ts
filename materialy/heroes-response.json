@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "etag": "7733248c522c1c6cb1a8c6d19acfc57a5264366d",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 1491,
+    "count": 20,
+    "results": []
+  }
+}
